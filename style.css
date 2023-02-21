@@ -4,6 +4,7 @@
     box-sizing: border-box;
     color: white;
     
+    
 
 }
 
@@ -11,42 +12,48 @@ body {
     background: #d1d6da;
 }
 
+/*****************header*********/
 .nav_barre {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+
 
 }
 
 .logo_img {
-    height: 90px;
-    width: 120px;
+    margin-left: 20%;
+    max-width: 25%;
 }
 
 .nav {
+    border: 1px solid red;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-
-    gap: 4em;
+    width: 100%;
+    
 
 }
 
 .nav a {
-    font-size: 20px;
-    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    font-size: 120%;
+    align-items: center;
     text-decoration: none;
     color: black;
 }
-
+/*****************parti bas du header******/
 .section_header {
 
     font-Family: Roboto Mono, monospace;
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
-    gap: 5em;
-    
+    gap: 20em;
     box-shadow: 10px 10px 10px 0px black;
-    height: 400px;
+
     background: linear-gradient(155deg,rgb(152, 153, 153,1) 0%, rgb(17, 65, 125,1)10%,rgb(255, 255, 255,1)150% );
 
 }
@@ -55,9 +62,7 @@ span{
 }
 
 .P_header {
-    margin-top: 3.5em;
-    line-height: 1.5em;
-    
+    margin-top: 5%;
     color: white;
 }
 .bureau_header {
@@ -67,18 +72,21 @@ span{
 }
 
 .bureau_header_img {
-    width: 750px;
-    height: 300px;
+    border: 1px solid black;
+    max-width: 100%;
+    margin: 30px;
+    height: 250px;
+    width: 550px;
+    
 }
 
 .div_titre {
    
     text-align: center;
     text-transform: uppercase;
-    margin-left: 6em;
-    margin-bottom: 3.5em;
-    height: 250px;
-    width: 450px;
+    max-width: 100%;
+    width: 800px;
+    border: 1px solid black;
 }
 
 .titre_2023 {
@@ -90,11 +98,58 @@ span{
     color: white;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 56px;
+    font-size: 300%;
     text-align: center;
 }
 
 h1{
-    font-size: 56px;
+    font-size: 300%;
 }
+/*****************fin parti bas du header******/
+/*****************fin de header*********/
+
+
+
+
+/*************main*****************/
+
+.section_main{
+    display: flex;
+    flex-direction: column;
+}
+.les_boxes{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid red;
+    height: 800px;
+}
+.box_haut{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+    width: 110em;
+    
+}
+.box_bas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+    width: 110em;
+}
+.boxes-btn{
+    border: 1px solid red;
+    text-align: center;
+    background-color: #fd8a69;
+    height: 220px;
+    width: 220px;
+    
+}
+/*************fin main*****************/
+
 
