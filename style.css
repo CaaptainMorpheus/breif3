@@ -27,11 +27,12 @@ body {
 }
 
 .nav {
-    border: 1px solid red;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
+    width: 150%;
+    gap: 2em;
     
 
 }
@@ -72,11 +73,11 @@ span{
 }
 
 .bureau_header_img {
-    border: 1px solid black;
+    
     max-width: 100%;
-    margin: 30px;
+    margin: 10px;
     height: 250px;
-    width: 550px;
+    width: 500px;
     
 }
 
@@ -86,7 +87,7 @@ span{
     text-transform: uppercase;
     max-width: 100%;
     width: 800px;
-    border: 1px solid black;
+   
 }
 
 .titre_2023 {
@@ -94,7 +95,6 @@ span{
 
     display: flex;
     justify-content: center;
-    
     color: white;
     font-weight: bold;
     text-transform: uppercase;
@@ -105,7 +105,7 @@ span{
 h1{
     font-size: 300%;
 }
-/*****************fin parti bas du header******/
+/********fin parti bas du header******/
 /*****************fin de header*********/
 
 
@@ -116,39 +116,45 @@ h1{
 .section_main{
     display: flex;
     flex-direction: column;
+    
 }
 .les_boxes{
 
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid red;
-    height: 800px;
+    height: 700px;
 }
 .box_haut{
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid red;
-    width: 110em;
+    width: 100em;
     
 }
 .box_bas{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid red;
-    width: 110em;
+    width: 100em;
 }
 .boxes-btn{
-    border: 1px solid red;
+    
     text-align: center;
     background-color: #fd8a69;
-    height: 220px;
-    width: 220px;
+    height: 150px;
+    width: 150px;
     
+}
+
+.graphique{
+    height: 50px;
+    width: 250px;
+    background-color: #44ca80;
+    border: 1px solid black;
 }
 /*************fin main*****************/
 
