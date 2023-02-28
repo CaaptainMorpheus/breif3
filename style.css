@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
-    
-    
-
 }
 
 body {
@@ -16,24 +13,22 @@ body {
 .nav_barre {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-
-
+    justify-content: space-around;
 }
 
 .logo_img {
-    margin-left: 20%;
-    max-width: 25%;
+    margin: 5px;
+    padding: 5px;
+    height: 90px;
+    width: 120px;
 }
 
 .nav {
-    
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 150%;
-    gap: 2em;
-    
+    gap: 5em;
 
 }
 
@@ -45,49 +40,51 @@ body {
     text-decoration: none;
     color: black;
 }
+
 /*****************parti bas du header******/
 .section_header {
 
-    font-Family: Roboto Mono, monospace;
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    font-Family: Roboto Mono, monospace;
     align-items: center;
-    gap: 20em;
     box-shadow: 10px 10px 10px 0px black;
-
-    background: linear-gradient(155deg,rgb(152, 153, 153,1) 0%, rgb(17, 65, 125,1)10%,rgb(255, 255, 255,1)150% );
+    background: linear-gradient(155deg, rgb(152, 153, 153, 1) 0%, rgb(17, 65, 125, 1)10%, rgb(255, 255, 255, 1)150%);
 
 }
-span{
+
+span {
     color: #fd8a69;
 }
 
 .P_header {
-    margin-top: 5%;
+
+    margin-top: 1.5em;
+    font-size: 22px;
+    width: 25em;
     color: white;
-}
-.bureau_header {
-    width: fit-content;
-    height:fit-content ;
-    
 }
 
 .bureau_header_img {
-    
-    max-width: 100%;
-    margin: 10px;
-    height: 250px;
-    width: 500px;
-    
+
+
+    margin: 20px;
+    height: 480px;
+    width: 655px;
+
 }
 
 .div_titre {
-   
+
+
+    display: flex;
+    flex-direction: column;
     text-align: center;
     text-transform: uppercase;
-    max-width: 100%;
-    width: 800px;
-   
+    font-size: 20px;
+
+
 }
 
 .titre_2023 {
@@ -97,14 +94,16 @@ span{
     justify-content: center;
     color: white;
     font-weight: bold;
+    font-size: 55px;
     text-transform: uppercase;
-    font-size: 300%;
-    text-align: center;
+
+
 }
 
-h1{
+h1 {
     font-size: 300%;
 }
+
 /********fin parti bas du header******/
 /*****************fin de header*********/
 
@@ -112,13 +111,22 @@ h1{
 
 
 /*************main*****************/
-
-.section_main{
+main{
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
+    gap: 5em;
 }
-.les_boxes{
+.section_main {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 15em;
+
+
+}
+
+.les_boxes {
 
     display: flex;
     flex-direction: column;
@@ -126,36 +134,95 @@ h1{
     align-items: center;
     justify-content: space-around;
     height: 700px;
+    width: 85%;
+    margin: auto;
+    gap: 5em;
 }
-.box_haut{
+
+.box_haut {
+
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100em;
-    
+    width: 100%;
+
+
 }
-.box_bas{
+
+.box_bas {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100em;
+    width: 100%;
+
 }
-.boxes-btn{
-    
-    text-align: center;
+
+.boxes-btn {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
     background-color: #fd8a69;
-    height: 150px;
-    width: 150px;
-    
+    height: 250px;
+    width: 250px;
+    border-radius: 5%;
+    font-weight: bolder;
+    box-shadow: 10px 5px 5px #a1a1a1;
+
 }
 
-.graphique{
-    height: 50px;
-    width: 250px;
+.box1 {
+    background-color: #fd8a69;
+}
+
+.box2 {
+    background-color: #11417d;
+}
+
+.box3 {
+    background-color: #47a188;
+}
+
+.box4 {
+    background-color: #989999;
+}
+
+.box5 {
+    background-color: #11417d;
+}
+
+.box6 {
+    background-color: #989999;
+}
+
+.box7 {
+    background-color: #44ca80;
+}
+
+.box8 {
+    background-color: #44ca80;
+}
+
+
+h2 {
+
+    border: 1px solid black;
+    width: 90%;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: xx-large;
+    color: rgba(128, 128, 128, 0.733);
+}
+
+.graphique {
+    width: 85%;
+    border-radius: 5%;
     background-color: #44ca80;
     border: 1px solid black;
 }
+
 /*************fin main*****************/
-
-
